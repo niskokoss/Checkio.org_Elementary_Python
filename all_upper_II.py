@@ -1,7 +1,7 @@
 # Проверить, есть ли в данной строке все символы в верхнем регистре.
 # Если строка пуста или в ней нет ни одной буквы - функция должна вернуть False.
 def is_all_upper(text: str) -> bool:
-    return True if text.isupper() else False
+    return text.isupper() 
 
 
 if __name__ == "__main__":
